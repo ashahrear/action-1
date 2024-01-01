@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
               - name: welocme message
-                run: echo "mys first github"
+                run: echo "my first github"
 
               - name: list flies
                 run: ls
