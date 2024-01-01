@@ -4,7 +4,7 @@ on: push
 
 jobs: 
     first_job:
-        run-on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps: 
               - name: welocme message
                 run: echo "mys first github"
