@@ -17,8 +17,8 @@ jobs:
 
               - name: Check the file's existance
                 run: grep -i "dragon" dragon.txt
-                               
-             - name: Read the flies
+
+              - name: Read the flies
                 run: cat dragon.txt
 
               - name: list the repo files
